@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+   
+    
+}
+body{
+    background-image: url(./1338126.png);
+  background-size: cover;
+}
+
+.timer-container{
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top:100px;
+    padding-bottom: 100px;
+   border: 2px solid orange;
+   border-radius: 10px;
+   backdrop-filter: blur(3px);
+   
+}
+ button{
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    border: 2px solid ;
+    border-radius: 5px;
+ }
+ #timer{
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.96);
+    
+ }
+ #start{
+  background-color: #009b77 ;
+  color: white;
+  font-size: 15px;
+  border: #009b77;
+ }
+ #stop{
+    background-color: #ef1212 ;
+  color: white;
+  font-size: 15px;
+  border: #ef1212;
+ }
+ #reset{
+    background-color: #0f96e0 ;
+  color: white;
+  font-size: 15px;
+  border: #0f96e0;
+}
+.timer-container:hover{
+    box-shadow: 1px 0px 14px 10px #df9149;
+}
